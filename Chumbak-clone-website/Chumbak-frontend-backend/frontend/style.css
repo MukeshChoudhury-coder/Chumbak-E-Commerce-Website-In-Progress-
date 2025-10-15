@@ -1,0 +1,570 @@
+/**<i class="fa-regular fa-user"></i>
+        <i class="fa-solid fa-cart-shopping"></i>***/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+/* Navbar container */
+nav {
+  padding: 10px 40px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  font-family: Arial, sans-serif;
+}
+
+/* Flex layout */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo img {
+  width: 160px;
+  cursor: pointer;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.nav-links p {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-links p:hover {
+  color: #d14d72; /* Chumbak’s pink accent */
+}
+
+/* Right side (search + user + cart) */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Search box */
+.search-box {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 5px 12px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+  width: 150px;
+}
+
+/* User + Cart */
+.user-icon, .cart-icon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.user-icon p,
+.cart-icon p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid rgb(182, 182, 182);
+}
+/** nav-bottom**/
+.bottom-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 10px 0;
+}
+.botton-poster{
+margin: 5px 10px;
+text-align: center;
+}
+.botton-poster p{
+  font-size: 10px;
+  font-weight: 500;
+}
+/**  body-container**/
+.body-p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 400;
+
+}
+
+.PalaceMemoirs-sec, .Bestseller-collection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 35px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.PalaceMemoirs-sec h1{
+  position: relative;
+  left: 30px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.PalaceMemoirs-sec-products , .Bestseller-collection-products{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin:10px;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+.Bestseller-collection h1{
+   position: relative;
+  left: 30px;
+  font-size: 30px;
+  font-weight: 500
+}
+.palaceSecDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px ;
+    max-width: 20%;
+}
+
+.palaceSecDiv p {
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(31, 31, 31);
+}
+.palaceSecDiv small {
+    font-size: 16px;
+    font-weight: 500;
+}
+.palaceSecDiv button{
+    background-color: black;
+    font-size: 14px ;
+    font-weight: 500;
+    border: transparent;
+    color: white;
+    padding: 15px 15px;
+    cursor: pointer;
+    
+} 
+.view{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.hero-poster-2, .sec-9{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero-poster-2 img , .sec-9 img{
+     max-width: 100%;   
+    margin: 10px 10px;
+    padding: 10px 10px ;
+    cursor: pointer;
+}
+.sec-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    padding: 0 30px;
+    flex-wrap: wrap;
+    
+}
+.sec-4 img ,.sec-7 img{
+    width: 300px;
+    max-width: 100%;
+    margin: 10px 5px ;
+    padding: 10px 15px ;
+}
+
+.sec-6,.sec-8{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+    margin: 20px 20px ;
+    padding: 10px 10px;
+ 
+}
+.sec-6-poster,.sec-8-poster{
+  margin: 10px 10px;
+  text-align: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.sec-6-poster img ,.sec-8-poster img{
+    width: 550px;
+    margin: 10px 20px ;
+    padding: 10px 20px;
+}
+ .sec-7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.sec-7 img{
+    width: 300px;
+    max-width: 100%;
+    margin: 10px 5px ;
+    padding: 10px 15px ;
+}
+.sec-7 p{
+ position: relative;
+  left: 30px;
+  font-size: 30px;
+  font-weight: 500
+
+}
+/** footer**/
+footer{
+  background-image: url(/Chumbak-frontend-backend/chumbal-images/footer.webp);
+ 
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 200px;
+}
+.footer-content .row {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white; 
+}
+.row p{
+    padding: 10px 0;
+    font-size: 13px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+
+}
+
+/** cart section**/
+.cart{
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 400px;
+    background-color:white;
+    height: 100vh;
+    transition: 0.5s;
+    color: black;
+
+}
+.active .cart{
+  left:calc(100% - 400px);
+}
+.add-cart-icon-para{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  row-gap: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.add-cart-icon-p{
+  width: 10px;
+  height: 10px;
+position: relative;
+right: 15px;
+bottom: 16px;
+border-radius: 50%;
+}
+.cart-count-back-icon{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+.cart-count-back-icon p{
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+
+}
+.show-cart-container{
+  display: flex;
+   height: 78vh;
+   margin: 20px 10px;
+   overflow-x: hidden;
+}
+.Show-on-cart{
+  display: flex;
+  justify-content:center;
+  margin: 8px 8px;
+  padding: 10px 8px;
+}
+.Show-on-cart img{
+  width: 55px;
+  height: 70px;
+  border: 1px solid #585858;
+  border-radius: 5px;
+}
+.Show-products{
+   width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  text-align: center;
+
+}
+.items-name{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 25px;
+
+}
+.product-price{
+  font-size: 20px;
+  font-weight: 550;
+}
+.delete-btn{
+  height: 20px;
+  padding: 0 5px;
+  background-color: black;
+  color: white;
+  border:  transparent;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 5px;
+  cursor: pointer;
+  
+}
+.increase-decrease-price{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+.btn-minus, .btn-plus{
+  padding:3px 20px;
+  background: rgb(253, 245, 245);
+  border: transparent;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+}
+.increase-decrease-btns{
+  text-align: center;
+  background: rgb(253, 245, 245);
+  border: 1px solid #585858;
+  padding: 0 3px;
+  margin: 0 10px;
+}
+.buy-now {
+padding: 15px 125px;
+text-align: center;
+text-align: center;
+position: relative;
+left: 10px;
+margin: 0 40px;
+background-color:#333;
+color: white;
+font-size: 15px;
+font-weight: 500;
+border: transparent;
+
+}
+
+/** cart-page **/
+.selected-product-details{
+  display: flex;
+}
+.product-containers{
+  max-width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items:center ;
+  flex-direction: row;
+  margin: 2px 20px;
+  padding: 20px 20px;
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px 50px;
+  margin-right: 20px;
+  
+}
+.side-imgs{
+  display:flex ;
+  flex-direction: column;
+}
+.side-imgs img{
+  margin: 30px 10px;
+}
+
+
+.about-product-buttons{
+  display: flex;
+   flex-direction: column;
+   margin: 20px 20px;
+   padding-top: 20px;
+}
+.titles{
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+
+}
+.mrp{
+  font-size: 16px;
+  font-weight: 550;
+  margin-top: 40px;
+  color: #333;
+}
+.gst{
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(134, 248, 134);
+}
+.taxes{
+  margin-top: 20px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 35px ;
+  padding: 20px 10px;
+}
+.icons p{
+  font-size: 12px;
+  font-weight: 600;
+  
+}
+.delivery-icons-text, .securePayment-icons-text, .cashOnDelivery-icons-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+  padding: 0 10px;
+  border-right: 1px solid rgb(167, 165, 165);
+}
+ .straight-line{
+  border-bottom: 1px solid rgb(167, 165, 165);
+  margin-top: 20px;
+ }
+ .delivery-date{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+ .inpt-check{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 5px 0px;
+  border: 1px solid black;
+  padding: 10px 60px;
+ }
+ .inpt-check input{
+border: transparent;
+position: relative;
+ right: 20%;
+ }
+.check{
+ position: relative;
+ left: 20%;
+ font-size: 14px;
+ font-weight: bold;
+ border-left: 1px solid;
+ padding: 0 5px;
+
+ }
+ .next-day-delivery{
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(7, 236, 7);
+  padding-left: 10px;
+  padding-right: 70px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(218, 243, 218);
+  margin: 10px 10px;
+ }
+
+ .btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 20px;
+  padding:20px 20px;
+ }
+
+ .addCart{
+  border: transparent;
+  background-color: #000000;
+  font-size: 16px;
+  color: #ccc;
+  padding: 15px 100px;
+  margin: 10px 10px;
+ }
+ .buyNow{
+  border: transparent;
+  background-color: #333;
+  font-size: 16px;
+  color: #ccc;
+  padding: 15px 120px;
+  margin: 10px 10px;
+ }
