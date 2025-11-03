@@ -14,7 +14,7 @@ const giftSection=[
 {
     id:11,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-1.webp",
+        img1: "chumbal-images/gift-page-pic-1.webp",
        title:`Royal Hoot Owl Shape Cushion 13"x8" `,
        price: 1999
 
@@ -22,7 +22,7 @@ const giftSection=[
 {
     id:12,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-2.webp",
+        img1: "chumbal-images/gift-page-pic-2.webp",
        title:`Best. Sis. Ever. Gift Set of 3`,
        price: 1499
 
@@ -30,7 +30,7 @@ const giftSection=[
 {
     id:13,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-3.webp",
+        img1: "chumbal-images/gift-page-pic-3.webp",
        title:`I love you from Head Message Card`,
        price: 20
 
@@ -38,7 +38,7 @@ const giftSection=[
 {
     id:14,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-4.webp",
+        img1: "chumbal-images/gift-page-pic-4.webp",
        title:`Dolphin Mug - D`,
        price: 562
 
@@ -46,7 +46,7 @@ const giftSection=[
 {
     id:15,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-5.webp",
+        img1: "chumbal-images/gift-page-pic-5.webp",
        title:`Grapefruit & Patchouli Soy Wax Candle - Small`,
        price: 636
 
@@ -54,7 +54,7 @@ const giftSection=[
 {
     id:16,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-6.webp",
+        img1: "chumbal-images/gift-page-pic-6.webp",
        title:`Rani Bagh Gift Box - Rectangle `,
        price: 299
 
@@ -62,7 +62,7 @@ const giftSection=[
 {
     id:17,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-7.webp",
+        img1: "chumbal-images/gift-page-pic-7.webp",
        title:`Sweet Soiree Eau de Parfume 20ml`,
        price: 599
 
@@ -70,7 +70,7 @@ const giftSection=[
 {
     id:18,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-8.webp",
+        img1: "chumbal-images/gift-page-pic-8.webp",
        title:`Festive Warmth and Joy E-Gift Card`,
        price: 1000
 
@@ -78,7 +78,7 @@ const giftSection=[
 {
     id:19,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-9.webp",
+        img1: "chumbal-images/gift-page-pic-9.webp",
        title:`Aztec Cats Insulated Lunch Box`,
        price: 1000
 
@@ -86,7 +86,7 @@ const giftSection=[
 {
     id:20,
         name:"Bestseller collection",
-        img1: "../chumbal-images/gift-page-pic-10.webp",
+        img1: "chumbal-images/gift-page-pic-10.webp",
        title:`Wrist Wonders Duo, Gift Set of 2 `,
        price: 2091
 
@@ -96,35 +96,35 @@ const products=[
     {
         id:1 ,
         name:"PalaceMemoirs",
-        img1:"../chumbal-images/gift-sec-img-1.webp",
+        img1:"chumbal-images/gift-sec-img-1.webp",
         title: "The Paris Baguette Sling | Palace Memoirs",
         price:3900
     },
     {
         id:2 ,
         name:"PalaceMemoirs",
-        img1:"../chumbal-images/gift-sec-img-2.webp",
+        img1:"chumbal-images/gift-sec-img-2.webp",
         title: "Sawai Cushion Cover, 16 | Palace Memoirs",
         price:900
     },
     {
         id:3 ,
         name:"PalaceMemoirs",
-        img1:"../chumbal-images/gift-sec-img-3.webp",
+        img1:"chumbal-images/gift-sec-img-3.webp",
         title: "Royal Tusker Serving Bowl, 520ml| Palace Memoirs",
         price: 1900
     },
     {
         id:4,
         name:"PalaceMemoirs",
-        img1:"../chumbal-images/gift-sec-img-4.webp",
+        img1:"chumbal-images/gift-sec-img-4.webp",
         title: "Royal Tusker Serving Bowl, 520ml| Palace Memoirs",
         price: 900
     },
     {
         id:5 ,
         name:"PalaceMemoirs",
-        img1:"../chumbal-images/gift-sec-img-5.webp",
+        img1:"chumbal-images/gift-sec-img-5.webp",
         title: "Royal Tusker Hand-painted Water Can, 250 ml | Palace Memoirs",
         price: 3900
     },
@@ -135,35 +135,35 @@ const productTwo=[
     {
         id:6,
         name:"Bestseller collection",
-        img1:"../chumbal-images/gift-sec-img-6.webp",
+        img1:"chumbal-images/gift-sec-img-6.webp",
        title:"Ikat Tea Mugs Gift Set of 6",
        price: 1500
     },
     {
         id:7,
         name:"Bestseller collection",
-        img1:"../chumbal-images/gift-sec-img-10.webp",
+        img1:"chumbal-images/gift-sec-img-10.webp",
        title:"Ikat Tea Mugs Gift Set of 6",
        price: 2500
     },
     {
         id:8,
         name:"Bestseller collection",
-        img1:"../chumbal-images/gift-sec-img-11.webp",
+        img1:"chumbal-images/gift-sec-img-11.webp",
        title:"Hangul Mesh Strap Watch with Bracelet Set | Kashmir Trails",
        price: 1500
     },
     {
         id:9,
         name:"Bestseller collection",
-        img1:"../chumbal-images/gift-sec-img-12.webp",
+        img1:"chumbal-images/gift-sec-img-12.webp",
        title:"Explorer Trio, Gift Set of 3 | Comes in a Gift Box",
        price: 1500
     },
     {
         id:10,
         name:"Bestseller collection",
-        img1:"../chumbal-images/gift-sec-img-13.webp",
+        img1:"chumbal-images/gift-sec-img-13.webp",
        title:"Explorer Trio, Gift Set of 3 | Comes in a Gift Box",
        price: 1500
     },
@@ -661,3 +661,4 @@ function detail(id){
  window.location.href=`cartpage.html?id=${id}`
  
 }
+
