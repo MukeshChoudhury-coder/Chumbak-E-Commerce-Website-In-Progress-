@@ -586,13 +586,17 @@ window.addEventListener("DOMContentLoaded",()=>{
 
 
 // open-close- addCart section//
-openAddCartIcon.addEventListener("click",()=>{
+if(openAddCartIcon){
+    openAddCartIcon.addEventListener("click",()=>{
     body.classList.add("active")
 })
+}
 //--//
-closeAddCartIcon.addEventListener("click",()=>{
+if(closeAddCartIcon){
+    closeAddCartIcon.addEventListener("click",()=>{
     body.classList.remove("active")
 })
+}
 
 // function for delete items from array//
 function deleteItems(id){
@@ -654,5 +658,6 @@ function detail(id){
  window.location.href=`cartpage.html?id=${id}`
  
 }
+
 
 
