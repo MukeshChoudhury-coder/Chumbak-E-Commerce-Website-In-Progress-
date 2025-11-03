@@ -291,7 +291,7 @@ align-items: center;
 }
 /** footer**/
 footer{
-  background-image: url(/Chumbak-frontend-backend/chumbal-images/footer.webp);
+  background-image: url(chumbal-images/footer.webp);
  
   padding: 50px 20px;
   display: flex;
@@ -762,3 +762,4 @@ position: relative;
 .grid-1, .grid-2{
   cursor: pointer;
 }
+
