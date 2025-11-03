@@ -650,15 +650,9 @@ function decrease(id){
 }
   
 
-const backIcn=document.querySelector(".back-icn")
-if(backIcn){
-    backIcn.addEventListener("click",()=>{
-    window.location.href=`homepage.html`
-})
-}
-
 function detail(id){
  window.location.href=`cartpage.html?id=${id}`
  
 }
+
 
