@@ -577,26 +577,20 @@ function showProduct(){
     })
 }
 
-// Run this every time the page loads//
-window.addEventListener("DOMContentLoaded", showProduct);
-window.addEventListener("DOMContentLoaded", countCart.innerText=cartCount);
 window.addEventListener("DOMContentLoaded",()=>{
-  if(cartCount > 0) addCartIconPara.style.backgroundColor = "red";
-});
-
-
-// open-close- addCart section//
-if(openAddCartIcon){
-    openAddCartIcon.addEventListener("click",()=>{
+    showProduct()
+    countCart.innerText=cartCount
+    // open-close- addCart section//
+openAddCartIcon.addEventListener("click",()=>{
     body.classList.add("active")
 })
-}
 //--//
-if(closeAddCartIcon){
-    closeAddCartIcon.addEventListener("click",()=>{
+closeAddCartIcon.addEventListener("click",()=>{
     body.classList.remove("active")
 })
-}
+
+ if(cartCount > 0) addCartIconPara.style.backgroundColor = "red";
+});
 
 // function for delete items from array//
 function deleteItems(id){
@@ -658,6 +652,7 @@ function detail(id){
  window.location.href=`cartpage.html?id=${id}`
  
 }
+
 
 
 
