@@ -518,8 +518,16 @@ const addCartBtn=document.querySelector(".addCart")
    //
 function addCart(id){
      if(findProduct.id===id){
-        findProduct.quantity=1
-         cart.push(findProduct)
+        const exist= cart.find((existProduct)=>{
+
+            if(existProduct.id===id){
+
+                findProduct.quantity+=1
+            }else{
+                findProduct.quantity=1
+                cart.push(findProduct)
+            }
+        })
       }
 
      
@@ -652,6 +660,7 @@ function detail(id){
  window.location.href=`cartpage.html?id=${id}`
  
 }
+
 
 
 
