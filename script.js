@@ -14,7 +14,7 @@ const giftSection=[
 {
     id:11,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-1.webp",
+        img1: "../chumbal-images/gift-page-pic-1.webp",
        title:`Royal Hoot Owl Shape Cushion 13"x8" `,
        price: 1999
 
@@ -22,7 +22,7 @@ const giftSection=[
 {
     id:12,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-2.webp",
+        img1: "../chumbal-images/gift-page-pic-2.webp",
        title:`Best. Sis. Ever. Gift Set of 3`,
        price: 1499
 
@@ -30,7 +30,7 @@ const giftSection=[
 {
     id:13,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-3.webp",
+        img1: "../chumbal-images/gift-page-pic-3.webp",
        title:`I love you from Head Message Card`,
        price: 20
 
@@ -38,7 +38,7 @@ const giftSection=[
 {
     id:14,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-4.webp",
+        img1: "../chumbal-images/gift-page-pic-4.webp",
        title:`Dolphin Mug - D`,
        price: 562
 
@@ -46,7 +46,7 @@ const giftSection=[
 {
     id:15,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-5.webp",
+        img1: "../chumbal-images/gift-page-pic-5.webp",
        title:`Grapefruit & Patchouli Soy Wax Candle - Small`,
        price: 636
 
@@ -54,7 +54,7 @@ const giftSection=[
 {
     id:16,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-6.webp",
+        img1: "../chumbal-images/gift-page-pic-6.webp",
        title:`Rani Bagh Gift Box - Rectangle `,
        price: 299
 
@@ -62,7 +62,7 @@ const giftSection=[
 {
     id:17,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-7.webp",
+        img1: "../chumbal-images/gift-page-pic-7.webp",
        title:`Sweet Soiree Eau de Parfume 20ml`,
        price: 599
 
@@ -70,7 +70,7 @@ const giftSection=[
 {
     id:18,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-8.webp",
+        img1: "../chumbal-images/gift-page-pic-8.webp",
        title:`Festive Warmth and Joy E-Gift Card`,
        price: 1000
 
@@ -78,7 +78,7 @@ const giftSection=[
 {
     id:19,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-9.webp",
+        img1: "../chumbal-images/gift-page-pic-9.webp",
        title:`Aztec Cats Insulated Lunch Box`,
        price: 1000
 
@@ -86,7 +86,7 @@ const giftSection=[
 {
     id:20,
         name:"Bestseller collection",
-        img1: "chumbal-images/gift-page-pic-10.webp",
+        img1: "../chumbal-images/gift-page-pic-10.webp",
        title:`Wrist Wonders Duo, Gift Set of 2 `,
        price: 2091
 
@@ -96,35 +96,35 @@ const products=[
     {
         id:1 ,
         name:"PalaceMemoirs",
-        img1:"chumbal-images/gift-sec-img-1.webp",
+        img1:"../chumbal-images/gift-sec-img-1.webp",
         title: "The Paris Baguette Sling | Palace Memoirs",
         price:3900
     },
     {
         id:2 ,
         name:"PalaceMemoirs",
-        img1:"chumbal-images/gift-sec-img-2.webp",
+        img1:"../chumbal-images/gift-sec-img-2.webp",
         title: "Sawai Cushion Cover, 16 | Palace Memoirs",
         price:900
     },
     {
         id:3 ,
         name:"PalaceMemoirs",
-        img1:"chumbal-images/gift-sec-img-3.webp",
+        img1:"../chumbal-images/gift-sec-img-3.webp",
         title: "Royal Tusker Serving Bowl, 520ml| Palace Memoirs",
         price: 1900
     },
     {
         id:4,
         name:"PalaceMemoirs",
-        img1:"chumbal-images/gift-sec-img-4.webp",
+        img1:"../chumbal-images/gift-sec-img-4.webp",
         title: "Royal Tusker Serving Bowl, 520ml| Palace Memoirs",
         price: 900
     },
     {
         id:5 ,
         name:"PalaceMemoirs",
-        img1:"chumbal-images/gift-sec-img-5.webp",
+        img1:"../chumbal-images/gift-sec-img-5.webp",
         title: "Royal Tusker Hand-painted Water Can, 250 ml | Palace Memoirs",
         price: 3900
     },
@@ -135,35 +135,35 @@ const productTwo=[
     {
         id:6,
         name:"Bestseller collection",
-        img1:"chumbal-images/gift-sec-img-6.webp",
+        img1:"../chumbal-images/gift-sec-img-6.webp",
        title:"Ikat Tea Mugs Gift Set of 6",
        price: 1500
     },
     {
         id:7,
         name:"Bestseller collection",
-        img1:"chumbal-images/gift-sec-img-10.webp",
+        img1:"../chumbal-images/gift-sec-img-10.webp",
        title:"Ikat Tea Mugs Gift Set of 6",
        price: 2500
     },
     {
         id:8,
         name:"Bestseller collection",
-        img1:"chumbal-images/gift-sec-img-11.webp",
+        img1:"../chumbal-images/gift-sec-img-11.webp",
        title:"Hangul Mesh Strap Watch with Bracelet Set | Kashmir Trails",
        price: 1500
     },
     {
         id:9,
         name:"Bestseller collection",
-        img1:"chumbal-images/gift-sec-img-12.webp",
+        img1:"../chumbal-images/gift-sec-img-12.webp",
        title:"Explorer Trio, Gift Set of 3 | Comes in a Gift Box",
        price: 1500
     },
     {
         id:10,
         name:"Bestseller collection",
-        img1:"chumbal-images/gift-sec-img-13.webp",
+        img1:"../chumbal-images/gift-sec-img-13.webp",
        title:"Explorer Trio, Gift Set of 3 | Comes in a Gift Box",
        price: 1500
     },
@@ -312,21 +312,21 @@ const params = new URLSearchParams(window.location.search);
        
        <div class="description">
        <p>Description</p>
-        <img src="/Chumbak-frontend-backend/chumbal-images/plus-icon" width="20px" alt="">
+        <img src="chumbal-images/plus-icon.webp" width="20px" alt="">
        </div>
 
        <div class="product-information">
        <p>Information</p>
-        <img src="/Chumbak-frontend-backend/chumbal-images/plus-icon" width="20px" alt="">
+        <img src="chumbal-images/plus-icon.webp" width="20px" alt="">
        </div>
 
        <div class="shipping-information">
        <p>Shipping Information</p>
-        <img src="/Chumbak-frontend-backend/chumbal-images/plus-icon" width="20px" alt="">
+        <img src="chumbal-images/plus-icon.webp" width="20px" alt="">
        </div>
        <div class="returns">
        <p>Returns</p>
-        <img src="/Chumbak-frontend-backend/chumbal-images/plus-icon" width="20px" alt="">
+        <img src="chumbal-images/plus-icon.webp" width="20px" alt="">
        </div>
 
        </div>
@@ -345,17 +345,17 @@ const params = new URLSearchParams(window.location.search);
 
          <div class="icons">
        <div class="delivery-icons-text">
-        <img src="/Chumbak-frontend-backend/chumbal-images/delivery-icon" width="30px" alt="">
+        <img src="chumbal-images/delivery-icon.webp" width="30px" alt="">
         <p>Free Delivery</p>
         </div>
 
        <div class="securePayment-icons-text">
-         <img src="/Chumbak-frontend-backend/chumbal-images/secure-payment-icon" width="30px" alt="">
+         <img src="chumbal-images/secure-payment-icon.webp" width="30px" alt="">
         <p>Secure Payment</p>
         </div>
 
        <div class="cashOnDelivery-icons-text">
-         <img src="/Chumbak-frontend-backend/chumbal-images/cash-on -delivery-icon" width="30px" alt="">
+         <img src="chumbal-images/cash-on -delivery-icon.webp" width="30px" alt="">
         <p>Cash on Delivery</p>
         </div>
        </div>
@@ -509,29 +509,35 @@ let cartCount=0
  
 const countCart=document.querySelector(".cart-count")
 const addCartBtn=document.querySelector(".addCart")
-  // store cart-data on localstorage//
+
+ // store cart-data on localstorage//
     // getItems or return []//
       
     cart=JSON.parse(localStorage.getItem("cartItems"))|| []
     cartCount=JSON.parse(localStorage.getItem("cartCounts"))||0
 
    //
+ 
 function addCart(id){
-     if(findProduct.id===id){
-        const exist= cart.find((existProduct)=>{
-
-            if(existProduct.id===id){
-
-                findProduct.quantity+=1
-            }else{
-                findProduct.quantity=1
-                cart.push(findProduct)
-            }
+   
+    if(findProduct.id===id){
+        findProduct.quantity=1
+      
+        const findExist=cart.find((exist)=>{
+            return exist.id===id
         })
-      }
 
-     
-    cartCount++
+        if(findExist){
+            findExist.quantity+=1
+        }else if(!findExist){
+              cart.push(findProduct)
+        cartCount++
+        }
+      }
+      
+
+     console.log(cart)
+   
        // setItem on localstorege//
          localStorage.setItem("cartItems", JSON.stringify(cart))
           localStorage.setItem("cartCounts", JSON.stringify(cartCount))
@@ -539,22 +545,22 @@ function addCart(id){
  cartCount=JSON.parse(localStorage.getItem("cartCounts"));
     countCart.innerText =  cartCount
  if(cartCount > 0) addCartIconPara.style.backgroundColor = "red"
-    showProduct();
+    showProduct();   
 }
 
 
 // show products on cart page (showCartDiv)//
 let showCartDiv=document.querySelector(".Show-products")
 //function for calculating total,grand-total and showing dynamic html-//
+
+ 
 function showProduct(){
-    
     let grandTotal=0
     let total=0
     showCartDiv.innerHTML=""
     // geting cartItems//
     cart=JSON.parse(localStorage.getItem("cartItems"))||[]
     cart.forEach((items)=>{
-
         //-calculating total price-//
         total=items.price*items.quantity
 
@@ -580,10 +586,16 @@ function showProduct(){
           <button onClick="deleteItems(${items.id})" class="delete-btn"> Delete</button>
         `
 
+       
         showCartDiv.appendChild(div)
+       
         
     })
 }
+
+// Run this every time the page loads//
+
+
 
 window.addEventListener("DOMContentLoaded",()=>{
     showProduct()
@@ -598,6 +610,8 @@ closeAddCartIcon.addEventListener("click",()=>{
 })
 
  if(cartCount > 0) addCartIconPara.style.backgroundColor = "red";
+
+  
 });
 
 // function for delete items from array//
@@ -619,7 +633,7 @@ function deleteItems(id){
 
      showProduct()
       //--//
-      if(countCart.innerText==="0"){
+      if(countCart.innerText<=0){
           addCartIconPara.style.backgroundColor="white"
       }
 }
@@ -656,12 +670,17 @@ function decrease(id){
 }
   
 
+const backIcn=document.querySelector(".back-icn")
+if(backIcn){
+    backIcn.addEventListener("click",()=>{
+    window.location.href=`homepage.html`
+})
+}
+
 function detail(id){
  window.location.href=`cartpage.html?id=${id}`
  
 }
-
-
 
 
 
