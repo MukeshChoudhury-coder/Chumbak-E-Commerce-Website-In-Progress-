@@ -1,5 +1,3 @@
-/**<i class="fa-regular fa-user"></i>
-        <i class="fa-solid fa-cart-shopping"></i>***/
 *{
     padding: 0;
     margin: 0;
@@ -116,6 +114,17 @@ text-align: center;
     margin-left: 30px;
     font-weight: 400;
 
+}
+
+.hero-poster{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+margin: 0 10px ;
+padding: 0 5px;
+}
+.hero-posters{
+width: 100%;
 }
 
 .PalaceMemoirs-sec, .Bestseller-collection{
